@@ -1,6 +1,53 @@
 body {
-    background-color: grey;
+    background-color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
 }
-.header .nav .footer {
-    background-color: #f1f1f1;
+/*trying to center the whole website content on the webpage*/
+.centered {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+div.header, div.nav, div.section, div.footer, div.aside  {
+    background-color: #ebebeb;
+    margin: 20px 0;
+    padding: 10px;
+}
+.header, .nav, .footer {
+    height: 80px;
+    
+}
+.article {
+    background-color: #777;
+    color: #ebebeb;
+    margin: 0 10px;
+    height: 200px;
+}
+.artheader1, .artpara {
+    background-color: #ebebeb;
+    color: #777;
+    margin: 10px;
+}
+.section, .aside {
+   width: 47%;
+   height: 300px;
+   
+
+}
+.aside {
+    float: right;
+    
+}
+.section {
+    
+    float: left;
+
+}
+
+.footer {
+    clear: left;
 }
